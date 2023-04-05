@@ -1,0 +1,52 @@
+@import url("https://fonts.cdnfonts.com/css/proxima-nova-2");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+
+  width: 100vw;
+  min-height: 100vh;
+
+  font-family: "Proxima Nova", sans-serif;
+}
+
+.modal_window {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #0e1215d6;
+  color: #ff0000;
+  font-size: 2rem;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: 0.5s;
+}
+
+@media (max-width: 1000px) {
+  .modal_window {
+    opacity: 1;
+    visibility: visible;
+  }
+}

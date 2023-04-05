@@ -1,0 +1,31 @@
+.table_container {
+  margin: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .table {
+    table-layout: auto;
+    width: 100%;
+
+    th,
+    td {
+      text-align: left;
+      padding: 0.8rem 3rem;
+      font-size: 1.3rem;
+      color: #5303f1;
+    }
+
+    td {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: #151d26;
+
+      span {
+        color: #313d4b;
+        font-weight: 600;
+      }
+    }
+  }
+}
