@@ -1,6 +1,6 @@
 @property --num {
   syntax: "<integer>";
-  initial-value: 24;
+  initial-value: 23;
   inherits: false;
 }
 
@@ -47,7 +47,7 @@
       --num: 0;
     }
     to {
-      --num: 24;
+      --num: 23;
     }
   }
 }
