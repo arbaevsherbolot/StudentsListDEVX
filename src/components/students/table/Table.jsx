@@ -25,7 +25,7 @@ export const Table = ({ data }) => {
                 <tr key={item.id}>
                   <td>{item.first_name}</td>
                   <td>{item.last_name}</td>
-                  <td>{item.email}</td>
+                  <td><a href={`mailto:${item.email}`}>{item.email}</a></td>
                   <td>
                     <span>{item.course}</span>
                   </td>

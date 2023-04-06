@@ -22,6 +22,15 @@
       font-weight: 500;
       color: #151d26;
 
+      a {
+        color: #151d26;
+        transition: 0.4s;
+
+        &:hover {
+          color: #5303f1;
+        }
+      }
+
       span {
         color: #313d4b;
         font-weight: 600;
