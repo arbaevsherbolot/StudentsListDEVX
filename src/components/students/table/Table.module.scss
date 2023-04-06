@@ -31,6 +31,20 @@
         }
       }
 
+      button {
+        padding: 0.5rem 2rem;
+
+        border-radius: 0.3rem;
+        border: none;
+
+        font-size: 1.1rem;
+        font-weight: 600;
+
+        color: #151822;
+
+        transition: 0.5s;
+      }
+
       span {
         color: #313d4b;
         font-weight: 600;

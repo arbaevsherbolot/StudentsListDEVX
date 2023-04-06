@@ -161,4 +161,4 @@ export const Student = [
     email: "ochinbaev@gmail.com",
     course: "SDET",
   },
-];
+]

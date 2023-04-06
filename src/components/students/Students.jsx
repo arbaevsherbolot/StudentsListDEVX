@@ -8,12 +8,15 @@ export const Students = () => {
 
   const keys = ["first_name", "last_name", "email", "course"];
 
+  // keys.sort((a, b) => (a.first_name > b.first_name ? 1 : -1));
+
   const search = (data) => {
     return data.filter((item) =>
-      keys.some(
-        (key) =>
-          item[key].toLowerCase().includes(query) || item[key].includes(query)
-      )
+      keys
+        .some(
+          (key) =>
+            item[key].toLowerCase().includes(query) || item[key].includes(query)
+        )
     );
   };
 
