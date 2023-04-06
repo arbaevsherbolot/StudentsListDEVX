@@ -2,7 +2,7 @@ export const Student = [
   {
     id: 1,
     first_name: "Meerim",
-    last_name: "Malanova",
+    last_name: "Malakanova",
     email: "meerim.malakanova.kk@gmai.com",
     course: "PM",
   },

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Table.module.scss";
 
 export const Table = ({ data }) => {
@@ -25,7 +25,9 @@ export const Table = ({ data }) => {
                 <tr key={item.id}>
                   <td>{item.first_name}</td>
                   <td>{item.last_name}</td>
-                  <td><a href={`mailto:${item.email}`}>{item.email}</a></td>
+                  <td>
+                    <a href={`mailto:${item.email}`}>{item.email}</a>
+                  </td>
                   <td>
                     <span>{item.course}</span>
                   </td>
