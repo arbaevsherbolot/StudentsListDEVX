@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../../assets/Logo.png";
 import styles from "./Header.module.scss";
 
@@ -7,9 +7,9 @@ export const Header = () => {
   return (
     <>
       <div className={styles.navbar}>
-        <div className={styles.logo}>
-          <img src={logo} alt="WEDEVX_IKSU_LOGO" />
-        </div>
+        <Link to="/">
+          <img className={styles.logo} src={logo} alt="WEDEVX_IKSU_LOGO" />
+        </Link>
         <div className={styles.nav_right}>
           <div className={styles.links}>
             <NavLink
